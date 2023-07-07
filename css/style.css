@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url("https://www.gamingexperienceaberdeen.co.uk/wp-content/uploads/2021/12/Black-and-Red-Gaming-Wallpapers-on-WallpaperDog.jpg");
+}
+
+h1 {
+    text-align: center;
+    color: #16aa34;
+}
+  
+nav {
+    color: aliceblue;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    margin: 0.3%;
+    list-style-type:none;
+    padding: 2%;
+}
+
+nav .items {
+  padding: 1.5% 0 1.0% 50%;
+}
+
+nav a {
+    color: rgb(27, 112, 187);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition:.4s ease all;
+    margin: 15px;
+}
+
+nav a:hover{
+    color:aquamarine;
+}
+
+table {
+    margin: 2% 0 2% 10%;
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    backdrop-filter: blur(10px);
+}
+  
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: #fff;
+}
+
+th {
+    font-size: 1.1rem;
+    color: #000;
+    background-color:rgb(202, 198, 194);
+  }
+
+
+#pagination{
+  display: flex;
+  width: 100%;
+  margin: 50px 0 0 10%;
+}
